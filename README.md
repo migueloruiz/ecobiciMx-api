@@ -2,6 +2,8 @@
 
 Cliente Asyncrono para la el API publica de [Ecobici de la Ciudad de México](https://www.ecobici.cdmx.gob.mx/es/informacion-del-servicio/open-data)
 
+[![npm version](https://badge.fury.io/js/ecobicimx.svg)](https://badge.fury.io/js/ecobicimx)
+
 ```javascript
 var Ecobici = require('ecobici')
 
