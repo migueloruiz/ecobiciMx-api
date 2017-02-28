@@ -1,0 +1,36 @@
+{
+  "name": "ecobicimx",
+  "version": "1.0.0",
+  "description": "Cliente Asyncrono para la el API publica de Ecobici de la Ciudad de México",
+  "license": "MIT",
+  "keywords": [
+    "ecobici",
+    "ciudad de méxico",
+    "oauth",
+    "datos abiertos"
+  ],
+  "homepage": "https://github.com/migueloruiz/ecobicimx",
+  "author": "@migueloruiz <https://github.com/migueloruiz>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/migueloruiz/ecobicimx"
+  },
+  "scripts": {
+    "test": "npm run lint && mocha",
+    "lint": "./node_modules/.bin/eslint test/*.js lib/*.js"
+  },
+  "dependencies": {
+    "deep-extend": "^0.4.1",
+    "moment": "^2.17.1",
+    "request": "^2.72.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.0",
+    "eslint-plugin-promise": "^3.4.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "eslint-config-standard": "^6.2.1",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.2"
+  },
+  "main": "./lib/ecobici"
+}
