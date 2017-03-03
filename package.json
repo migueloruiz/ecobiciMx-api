@@ -1,6 +1,6 @@
 {
   "name": "ecobicimx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cliente Asyncrono para la el API publica de Ecobici de la Ciudad de México",
   "license": "MIT",
   "keywords": [

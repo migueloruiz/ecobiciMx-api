@@ -1,4 +1,4 @@
-var Ecobici = require('ecobici')
+var Ecobici = require('ecobicimx')
 
 var client = new Ecobici({
   clientId: '',
